@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6B4EE435-3BA0-4936-BFC4-BF7D0859C6B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BF07CA32-9FB8-43A3-A692-23636C7F3829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{93479E6F-1778-4F32-ADE0-C88F0B4C1AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalogApi", "src\Services\ProductCatalogApi\ProductCatalogApi.csproj", "{6FFE424E-41D4-46B1-A9D7-F065EB5F12CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FFE424E-41D4-46B1-A9D7-F065EB5F12CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFE424E-41D4-46B1-A9D7-F065EB5F12CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFE424E-41D4-46B1-A9D7-F065EB5F12CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFE424E-41D4-46B1-A9D7-F065EB5F12CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF07CA32-9FB8-43A3-A692-23636C7F3829} = {6B4EE435-3BA0-4936-BFC4-BF7D0859C6B6}
+		{93479E6F-1778-4F32-ADE0-C88F0B4C1AB6} = {6B4EE435-3BA0-4936-BFC4-BF7D0859C6B6}
+		{6FFE424E-41D4-46B1-A9D7-F065EB5F12CC} = {BF07CA32-9FB8-43A3-A692-23636C7F3829}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA364375-4156-4D93-98A8-1730D79327B5}
+	EndGlobalSection
+EndGlobal
